@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --primary: #a50cec;
+    --primary-lighter: #682985;
+    --primary-darker: #43075f;
+    --white: #fff;
+    --surface: rgb(228, 228, 228);
+    --black: #333;
+    --secondary: #e093c7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: var(--surface);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#registrationForm {
+    width: 30%;
+    padding: 20px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    width: 95%;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #af4c82;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 95%;
+}
+
+button:hover {
+    background-color: #9b2487;
+}
